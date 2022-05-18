@@ -1,5 +1,5 @@
 # PA2-DNS-Client
-This reposatory is part of a small project I did in my B.sc in Elecrical engineering at [Tel-Aviv University](https://www.tau.ac.il). The project about computer comunication and networks.
+This reposatory is part of a small project I did in my B.sc in Elecrical engineering at [Tel-Aviv University](https://www.tau.ac.il). The project about computer comunication and networks. The project simulates .... 
 
 ---------------------------------------------------------------------------------------
 
