@@ -9,7 +9,7 @@ The purpose of this exercise is to implement a DNS client.
 When executing the program, the program gets an IP address as an argument. the IP address must be a valid IP address of a DNS server.
 The nsclient program prompt on the stdout the user to input a domain name. 
 The domain names are case insensitive, meaning: 'abcde.net' = 'AbCdE.nEt'.
-After inputting a domain name the program will perform a DNS Query [More Information - ClouDNS](https://www.cloudns.net/wiki/article/254/) and will return the IP addresses that corespond with the domain name, if it is in fact a valid domain name, else it will return an informative error message.
+After inputting a domain name the program will perform a DNS Query ([More Information - ClouDNS](https://www.cloudns.net/wiki/article/254/))and will return the IP addresses that corespond with the domain name, if it is in fact a valid domain name, else it will return an informative error message.
 #### Error messages:
 1. `ERROR : INVALID NAME`  
 This message correspond with error code '123', and printed out when domain name is structurally not valid
