@@ -44,7 +44,7 @@ For exiting the program the user inputs 'quit', case insensitive.
 
 
 ### **Operation & Conditions**:
-1. The first file must be channel.c such that we will have the ports numbers and ip number. the order doesn't matter between sender.c and receiver.c.
+1. The IP address when executing `nsclient 'ip_address'` must be of a valid DNS server, else will be outputed TIMEOUT error message.
 2. To continue to another channel interval answer 'yes' (case-unsensitive), every other answer will stop channel's run.
 3. To continue to another sender/receiver interval put in an existing file name with suffix to be read, non-valid name will end the run.
 4. To end sender/receiver run put in 'quit' (case-unsensitive) when asked for file name.
