@@ -19,7 +19,7 @@ This message correspond with error code '9003', and printed out when the domain 
 This message correspond with error code '9560', and printed out when there is an invalid character such as ' ' or '@'.
 4. `ERROR : TIMEOUT`
 This message correspond witherror code '1460', and printed out when the dns query timeout period expired (---info link---).
-5. `Failed to query the host record for 'domain name input' and the error code is 'Error code number'`
+5. `Failed to query the host record for '%domain_name_input' and the error code is '%Error_code_number'`
 This message is a general case message. when error occured and it is not of the above, this message will print out with the corresponding domain name and error code.
 
 For more information on *Windows Error Code*: [Debug system error codes](https://docs.microsoft.com/en-us/windows/win32/debug/system-error-codes).
