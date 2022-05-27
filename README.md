@@ -11,7 +11,7 @@ The nsclient program prompt on the stdout the user to input a domain name.
 The domain names are case insensitive, meaning: 'abcde.net' = 'AbCdE.nEt'.
 After inputting a domain name the program will perform a [DNS Query]() and will return the IP addresses that corespond with the domain name, if it is in fact a valid domain name, else it will return an informative error message.
 #### Error messages:
-1. "ERROR : INVALID NAME"
+1. **ERROR : INVALID NAME**
 This message correspond with error code '123', and printed out when domain name is structurally not valid
 2. ERROR : DOMAIN NAME DOES NOT EXIST
 This message correspond with error code '9003', and printed out when the domain name is valid, but do not exist.
