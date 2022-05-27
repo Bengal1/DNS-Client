@@ -5,9 +5,22 @@ This reposatory is part of a small project I did in my B.sc in Elecrical enginee
 
 ### *Description & Functuinallity*:
 
-The purpose of this exercise is to implement a DNS client. ...
-
-The channel receives data from the sender and add noise to it according to the set arguments, and send it to the receiver.
+The purpose of this exercise is to implement a DNS client.
+When executing the program, the program gets an IP address as an argument. the IP address must be a valid IP address of a DNS server.
+The nsclient program prompt on the stdout the user to input a domain name. 
+The domain names are case insensitive, meaning: 'abcde.net' = 'AbCdE.nEt'.
+After inputting a domain name the program will return the IP addresses that corespond with the domain name, if it is in fact a valid domain name, else it will return an informative error message.
+#error messages:
+1. ERROR : INVALID NAME
+This message correspond with
+2. ERROR : DOMAIN NAME DOES NOT EXIST
+This message correspond with
+3. ERROR : DOMAIN NAME CONTAINS AN INVALID CHARACTER
+This message correspond with
+4. ERROR : TIMEOUT
+This message correspond with
+5. Failed to query the host record for 'domain name input' and the error code is 'Error code number'
+This message correspond with
 
 The sender gets in the command line arguments IP number and port number (manually insert from the server output). With those argument the sender connects to the channel via TCP socket.
 The sender gets from stdin a file name (or full path to it) with suffix, read all data from the file, encode it with *hamming-code(31,26,3)*  method and send it to the channel via TCP socket in 4 bytes portions.
