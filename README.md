@@ -1,5 +1,5 @@
 # PA2-DNS-Client
-This reposatory is part of a small project I did in my B.sc in Elecrical engineering at [Tel-Aviv University](https://www.tau.ac.il). The project about computer comunication and networks. The project simulates .... 
+This reposatory is part of a small project I did in my B.sc in Elecrical engineering at [Tel-Aviv University](https://www.tau.ac.il). The project about computer comunication and networks. The project simulates .... specify RFC reference and stuff ...
 
 ---------------------------------------------------------------------------------------
 
@@ -30,9 +30,6 @@ For more information on *Windows Error Code*: [Debug system error codes](https:/
 
 For exiting the program the user inputs 'quit', case insensitive.
 
-For more information on *Hamming Code* :
-- [3Blue1Brown](https://www.youtube.com/watch?v=X8jsijhllIA&t=906s) - 2 Videos which explains it well in simple language.
-- [Wikipedia](https://en.wikipedia.org/wiki/Hamming_code) - there are a lot of websites and books that explain hamming code well.
 
 ### **Comiplation**:
 1. Compile via Visual Studio -
