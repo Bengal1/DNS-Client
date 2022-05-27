@@ -48,4 +48,5 @@ For exiting the program the user inputs 'quit', case insensitive.
 2. The program gives all the IP addresses that corresponds to the domain name given.
 3. If the input is `localhot` the program will return `127.0.0.1`, even for an invalid DNS IP address.
 4. The program deals with CNAME, if given a [CNAME Record](https://en.wikipedia.org/wiki/CNAME_record) the program will return the canonical name IP address.
+5. The program will return only IPv4 addresses And will ignore IPv6 addresses. 
 
