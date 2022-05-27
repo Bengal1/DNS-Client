@@ -10,7 +10,7 @@ When executing the program, the program gets an IP address as an argument. the I
 The nsclient program prompt on the stdout the user to input a domain name. 
 The domain names are case insensitive, meaning: 'abcde.net' = 'AbCdE.nEt'.
 After inputting a domain name the program will return the IP addresses that corespond with the domain name, if it is in fact a valid domain name, else it will return an informative error message.
-# Error messages:
+#### Error messages:
 1. ERROR : INVALID NAME
 This message correspond with
 2. ERROR : DOMAIN NAME DOES NOT EXIST
