@@ -45,7 +45,7 @@ For exiting the program the user inputs 'quit', case insensitive.
 
 ### **Operation & Conditions**:
 1. The IP address when executing `nsclient 'ip_address'` must be of a valid DNS server, else will be outputed TIMEOUT error message.
-2. To continue to another channel interval answer 'yes' (case-unsensitive), every other answer will stop channel's run.
-3. To continue to another sender/receiver interval put in an existing file name with suffix to be read, non-valid name will end the run.
+2. The program gives all the IP addresses that corresponds to the domain name given.
+3. If the input is `localhot` the program will return `127.0.0.1` even for an invalid DNS IP address.
 4. To end sender/receiver run put in 'quit' (case-unsensitive) when asked for file name.
 5. Channel's noise: the noise parameter is in hamming border of success.
