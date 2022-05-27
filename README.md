@@ -27,7 +27,7 @@ This message correspond witherror code '1460', and printed out when the dns quer
 This message is a general case message. when error occured and it is not of the above, this message will print out with the corresponding domain name and error code.
 
 For more information on *Windows Error Code*: [Debug system error codes](https://docs.microsoft.com/en-us/windows/win32/debug/system-error-codes).  
-For more information on *DNS*: [Domain Name System - Wikipedia](https://en.wikipedia.org/wiki/Domain_Name_System)
+For more information on *DNS*: [Domain Name System - Wikipedia](https://en.wikipedia.org/wiki/Domain_Name_System).  
 For exiting the program the user inputs 'quit', case insensitive.
 
 
