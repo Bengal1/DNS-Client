@@ -46,6 +46,6 @@ For exiting the program the user inputs 'quit', case insensitive.
 ### **Operation & Conditions**:
 1. The IP address when executing `nsclient 'ip_address'` must be of a valid DNS server, else will be outputed TIMEOUT error message.
 2. The program gives all the IP addresses that corresponds to the domain name given.
-3. If the input is `localhot` the program will return `127.0.0.1` even for an invalid DNS IP address.
-4. To end sender/receiver run put in 'quit' (case-unsensitive) when asked for file name.
-5. Channel's noise: the noise parameter is in hamming border of success.
+3. If the input is `localhot` the program will return `127.0.0.1`, even for an invalid DNS IP address.
+4. The program deals with CNAME, if given a [Canonical Name Record](https://en.wikipedia.org/wiki/CNAME_record) the program will return the host IP address.
+
