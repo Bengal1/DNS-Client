@@ -9,7 +9,7 @@ The purpose of this exercise is to implement a DNS client.
 When executing the program, the program gets an IP address as an argument. the IP address must be a valid IP address of a DNS server.
 The nsclient program prompt on the stdout the user to input a domain name. 
 The domain names are case insensitive, meaning: 'abcde.net' = 'AbCdE.nEt'.
-After inputting a domain name the program will return the IP addresses that corespond with the domain name, if it is in fact a valid domain name, else it will return an informative error message.
+After inputting a domain name the program will perform a [DNS Query]() and will return the IP addresses that corespond with the domain name, if it is in fact a valid domain name, else it will return an informative error message.
 #### Error messages:
 1. ERROR : INVALID NAME
 This message correspond with error code '123', and printed out when domain name is structurally not valid
@@ -17,7 +17,7 @@ This message correspond with error code '123', and printed out when domain name 
 This message correspond with error code '9003', and printed out when the domain name is valid, but do not exist.
 3. ERROR : DOMAIN NAME CONTAINS AN INVALID CHARACTER
 This message correspond with error code '9560', and printed out when there is an invalid character such as ' ' or '@'.
-4. ERROR : TIMEOUT
+4. ERROR : TIMEOUT:
 This message correspond witherror code '1460', and printed out when the dns query timeout period expired (---info link---).
 5. Failed to query the host record for 'domain name input' and the error code is 'Error code number'
 This message is a general case message. when error occured and it is not of the above, this message will print out with the corresponding domain name and error code.
