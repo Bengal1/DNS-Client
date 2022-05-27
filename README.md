@@ -12,21 +12,19 @@ The domain names are case insensitive, meaning: 'abcde.net' = 'AbCdE.nEt'.
 After inputting a domain name the program will return the IP addresses that corespond with the domain name, if it is in fact a valid domain name, else it will return an informative error message.
 #### Error messages:
 1. ERROR : INVALID NAME
-This message correspond with
+This message correspond with error code '123', and printed out when domain name is structurally not valid
 2. ERROR : DOMAIN NAME DOES NOT EXIST
-This message correspond with
+This message correspond with error code '9003', and printed out when the domain name is valid, but do not exist.
 3. ERROR : DOMAIN NAME CONTAINS AN INVALID CHARACTER
-This message correspond with
+This message correspond with error code '9560', and printed out when there is an invalid character such as ' ' or '@'.
 4. ERROR : TIMEOUT
-This message correspond with
+This message correspond witherror code '1460', and printed out when the dns query timeout period expired (---info link---).
 5. Failed to query the host record for 'domain name input' and the error code is 'Error code number'
-This message correspond with
+This message is a general case message. when error occured and it is not of the above, this message will print out with the corresponding domain name and error code.
 
-The sender gets in the command line arguments IP number and port number (manually insert from the server output). With those argument the sender connects to the channel via TCP socket.
-The sender gets from stdin a file name (or full path to it) with suffix, read all data from the file, encode it with *hamming-code(31,26,3)*  method and send it to the channel via TCP socket in 4 bytes portions.
+For more information on *Windows Error Code*: [Debug system error codes](https://docs.microsoft.com/en-us/windows/win32/debug/system-error-codes).
 
-The receiver gets in the command line arguments IP number and port number (manually insert from the server output). With those argument the sender connects to the channel via TCP socket.
-The sender gets from stdin a file name (or full path to it) with suffix to be written to. The receiver get the data from the channel in 4 bytes portions decode it with *hamming-code(31,26,3)*  method and write it to the desired file.
+For exiting the program the user inputs 'quit', case insensitive.
 
 For more information on *Hamming Code* :
 - [3Blue1Brown](https://www.youtube.com/watch?v=X8jsijhllIA&t=906s) - 2 Videos which explains it well in simple language.
