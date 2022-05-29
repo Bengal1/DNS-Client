@@ -1,12 +1,12 @@
 # PA2-DNS-Client
-This reposatory is part of a small project I did in my B.sc in Elecrical engineering at [Tel-Aviv University](https://www.tau.ac.il). The project about computer comunication and networks. The project simulates .... specify RFC reference and stuff ...
+This reposatory is part of a small project I did in my B.sc in Elecrical engineering at [Tel-Aviv University](https://www.tau.ac.il). The project about computer comunication and networks. The project simulates *nslookup* functionality. For a given *Domain name* the program will execute a *DNS Query* and will return to the user all the IP Addresses of the given domain name. The query will be executed according to [RFC 1035](https://www.ietf.org/rfc/rfc1035.txt).
 
 ---------------------------------------------------------------------------------------
 
 ### *Description & Functuinallity*:
 
 The purpose of this exercise is to implement a DNS client.
-When executing the program, the program gets an IP address as an argument. the IP address must be a valid IP address of a DNS server.
+When executing the program, the program gets an IP address as an argument, in dotted-decimal notation. the IP address must be a valid IP address of a DNS server.
 The nsclient program prompt on the stdout the user to input a domain name. 
 The domain names are case insensitive, meaning: 'abcde.net' = 'AbCdE.nEt'.
 After inputting a domain name the program will perform a DNS Query ([More Information - ClouDNS](https://www.cloudns.net/wiki/article/254/)) and will return the IP addresses that corespond with the domain name, if it is in fact a valid domain name, else it will return an informative error message.
