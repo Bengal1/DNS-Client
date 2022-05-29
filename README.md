@@ -31,8 +31,10 @@ For exiting the program the user inputs 'quit', case insensitive.
 For more information on *Windows Error Code*: [Debug system error codes](https://docs.microsoft.com/en-us/windows/win32/debug/system-error-codes).  
 For more information on *DNS*: [Domain Name System - Wikipedia](https://en.wikipedia.org/wiki/Domain_Name_System).  
 
+
 ### *Nsclient's Examplery Run*:
-![nsclient](https://user-images.githubusercontent.com/34989887/170728442-7f32907d-5042-420e-ae7d-195da074427b.png)
+![nsclient_run](https://user-images.githubusercontent.com/34989887/170880017-11172fe8-1a07-4b46-af54-91189d3a4ce2.png)
+
 
 ### **Comiplation**:
 1. Compile via Visual Studio -
