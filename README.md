@@ -46,7 +46,7 @@ For more information on *DNS*: [Domain Name System - Wikipedia](https://en.wikip
 - Go to directory of the wanted C file.
 - Type on the Command Prompt :`cl /EHsc name.c` (name of the file instead of 'name.c').
 - Type command for the executable file: 'name argument1 argument2'
-* for more information : [https://docs.microsoft.com](https://docs.microsoft.com/en-us/cpp/build/walkthrough-compiling-a-native-cpp-program-on-the-command-line?view=msvc-170).
+* For more information : [https://docs.microsoft.com](https://docs.microsoft.com/en-us/cpp/build/walkthrough-compiling-a-native-cpp-program-on-the-command-line?view=msvc-170).
 
 
 ### **Operation & Conditions**:
