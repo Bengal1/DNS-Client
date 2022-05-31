@@ -5,7 +5,7 @@ This reposatory is part of a small project I did in my B.sc in Elecrical enginee
 
 ### *Description & Functuinallity*:
 
-The purpose of this exercise is to implement a DNS client.
+The purpose of this exercise is to implement a DNS client, and impement the functionality of *gethostbyname()*.
 When executing the program, the program gets an IP address as an argument, in dotted-decimal notation. the IP address must be a valid IP address of a DNS server.
 The nsclient program prompt on the stdout the user to input a domain name. 
 The domain names are case insensitive, meaning: 'abcde.net' = 'AbCdE.nEt'.
@@ -26,6 +26,7 @@ This message correspond witherror code '1460', and printed out when the dns quer
 5. `Failed to query the host record for '%domain_name_input' and the error code is '%Error_code_number'`  
 This message is a general case message. when error occured and it is not of the above, this message will print out with the corresponding domain name and error code.
 
+For each time the user inputs a domain name a stuct HOSTENT is created with the wanted host information.
 For exiting the program the user inputs 'quit', case insensitive.
 
 For more information on *Windows Error Code*: [Debug system error codes](https://docs.microsoft.com/en-us/windows/win32/debug/system-error-codes).  
@@ -53,5 +54,5 @@ For more information on *DNS*: [Domain Name System - Wikipedia](https://en.wikip
 2. The program gives all the IP addresses that corresponds to the domain name given.
 3. If the input is `localhot` the program will return `127.0.0.1`, even for an invalid DNS IP address.
 4. The program deals with CNAME, if given a [CNAME Record](https://en.wikipedia.org/wiki/CNAME_record) the program will return the canonical name IP address.
-5. The program will return only IPv4 addresses And will ignore IPv6 addresses. 
-
+5. The program will return only IPv4 addresses And will ignore IPv6 addresses.
+6. Part of the exercise demands was to maintain a struct HOSTENT, so every call of the fuction also create a struct HOSTENT with the wanted host information.
