@@ -5,7 +5,7 @@ This reposatory is part of a small project I did in my B.sc in Elecrical enginee
 
 ### *Description & Functuinallity*:
 
-The purpose of this exercise is to implement a DNS client, and impement the functionality of [*gethostbyname()*](https://docs.microsoft.com/en-us/windows/win32/api/winsock/nf-winsock-gethostbyname).
+The purpose of this exercise is to implement a DNS client, and impement the functionality of [*gethostbyname()*](https://docs.microsoft.com/en-us/windows/win32/api/winsock/nf-winsock-gethostbyname) [using DnsQuery()](https://docs.microsoft.com/en-us/windows/win32/api/windns/nf-windns-dnsquery_a).
 When executing the program, the program gets an IP address as an argument, in dotted-decimal notation. the IP address must be a valid IP address of a DNS server.
 The nsclient program prompt on the stdout the user to input a domain name. 
 The domain names are case insensitive, meaning: 'abcde.net' = 'AbCdE.nEt'.
