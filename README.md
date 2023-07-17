@@ -1,4 +1,4 @@
-# PA2-DNS-Client
+# DNS-Client
 This reposatory is part of a small project I did in my B.sc in Elecrical engineering at [Tel-Aviv University](https://www.tau.ac.il). The project about computer comunication and networks. The project simulates *nslookup* functionality. For a given *Domain name* the program will execute a *DNS Query* and will return to the user all the IP Addresses of the given domain name. The query will be executed according to [RFC 1035](https://www.ietf.org/rfc/rfc1035.txt).
 
 ---------------------------------------------------------------------------------------
