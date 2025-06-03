@@ -53,7 +53,7 @@ For more information on *DNS*: [Domain Name System - Wikipedia](https://en.wikip
 1. Maximum input length is 256 character, so it could store even the longest subdomain name.
 2. The IP address when executing `nsclient 'ip_address'` must be of a valid DNS server, else will be outputed TIMEOUT error message.
 3. The program gives all the IP addresses that corresponds to the domain name given.
-4. If the input is `localhot` the program will return `127.0.0.1`, even for an invalid DNS IP address.
+4. If the input is `localhost` the program will return `127.0.0.1`, even for an invalid DNS IP address.
 5. The program deals with CNAME, if given a [CNAME Record](https://en.wikipedia.org/wiki/CNAME_record) the program will return the canonical name IP address.
 6. The program will return only IPv4 addresses And will ignore IPv6 addresses.
 7. Part of the exercise demands was to maintain a [struct HOSTENT](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/ns-winsock2-hostent), so every call of the fuction also create a struct HOSTENT with the wanted host information.
