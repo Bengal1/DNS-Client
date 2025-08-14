@@ -37,7 +37,7 @@ For more information on *DNS*: [Domain Name System - Wikipedia](https://en.wikip
 ![nsclient_run](https://user-images.githubusercontent.com/34989887/170880017-11172fe8-1a07-4b46-af54-91189d3a4ce2.png)
 
 
-### **Comiplation**:
+### **Compilation**:
 1. Compile via Visual Studio -
 - Open project in Visual Studio.
 - Build Solution & Run (F5/ctrl + F5).
